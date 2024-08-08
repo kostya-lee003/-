@@ -58,7 +58,7 @@ extension LoginViewController: LoginViewDelegate {
         requestManager.checkUsername(text) { result in
             switch result {
                 case success(let isValid):
-                    if !isSafe {
+                    if !isValid {
                         self.contentView.continueButton.isEnabled = false
                     } else {
                         self.contentView.continueButton.isEnabled = true
