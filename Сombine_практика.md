@@ -29,12 +29,12 @@ class LoginViewController: UIViewController {
 
     init(requestManager: LoginRequestManager) {
          self.requestManager = requestManager
-         self.init(coder: nil, nibName: nil)
+         self.init(nibName: nil, bundle: nil)
     }
 
-    override init(coder: NSCoder?, nibName: String?) {
-        super.init(coder: nil, nibName: nil)
-     }
+    override init(nibName: String?, bundle: Bundle?) {
+        super.init(nibName: nibName, bundle: bundle)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
