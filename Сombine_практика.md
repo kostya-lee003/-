@@ -13,7 +13,7 @@ protocol LoginViewDelegate {
 class LoginView: UIView {
     private let usernameTextField = UITextField()
     private let passwordTextField = UITextField()
-    private let continueButton = UIButton()
+    let continueButton = UIButton()
     var delegate: LoginViewDelegate?
     
     func setup() {
@@ -59,9 +59,9 @@ extension LoginViewController: LoginViewDelegate {
             switch result {
                 case success(let isValid):
                     if !isSafe {
-                        self.continueButton.isEnabled = false
+                        self.contentView.continueButton.isEnabled = false
                     } else {
-                        self.continueButton.isEnabled = true
+                        self.contentView.continueButton.isEnabled = true
                     }
                 case failure(let error):
                     print(error.localizedDescription)
@@ -75,9 +75,9 @@ extension LoginViewController: LoginViewDelegate {
             switch result {
                 case success(let isSafe):
                     if !isSafe {
-                        self.continueButton.isEnabled = false
+                        self.contentView.continueButton.isEnabled = false
                     } else {
-                        self.continueButton.isEnabled = true
+                        self.contentView.continueButton.isEnabled = true
                     }
                 case failure(let error):
                     print(error.localizedDescription)
