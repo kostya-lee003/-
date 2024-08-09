@@ -14,7 +14,9 @@ Intro должно занять +-30 мин
 
 ## UIKit
 - Как ты верстал экраны? (Storyboard / Nib / Code / SwiftUI). Сможешь назвать минусы в работе со storyboard-дами?
-- Как происходит оптимизация данных в TableView & CollectionView
+- Как происходит оптимизация данных в TableView & CollectionView?
+- В какой момент работы с UIKit-ом тебе приходится дергать layer у UIView?
+- frame-based layout vs constraint-based layout
 
 ## Git
 - Для чего нам нужен гит?
