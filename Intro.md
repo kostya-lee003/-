@@ -11,6 +11,8 @@ Intro должно занять +-30 мин
 ## Swift
 - В чем плюсы Protocol-Oriented-Programming? Почему оно лучше Наследования в OOP?
 - Зачем нам нужны делегаты в Swift? Где они используются?
+- Че такое Optional? Зачем нужен? Как разворачивать?
+- Различие guard let и if let
 
 ## UIKit
 - Как ты верстал экраны? (Storyboard / Nib / Code / SwiftUI). Сможешь назвать минусы в работе со storyboard-дами?
