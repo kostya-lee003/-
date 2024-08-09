@@ -16,3 +16,10 @@ Intro должно занять +-30 мин
 - Как ты верстал экраны? (Storyboard / Nib / Code / SwiftUI). Сможешь назвать минусы в работе со storyboard-дами?
 - TableView & CollectionView
 
+## Git
+- Для чего нам нужен гит?
+- Какие гит команды знаешь?
+- pull vs fetch?
+- merge vs rebase?
+- Можно ли делать force push? В каких кейсах?
+  
