@@ -14,7 +14,7 @@ Intro должно занять +-30 мин
 
 ## UIKit
 - Как ты верстал экраны? (Storyboard / Nib / Code / SwiftUI). Сможешь назвать минусы в работе со storyboard-дами?
-- TableView & CollectionView
+- Как происходит оптимизация данных в TableView & CollectionView
 
 ## Git
 - Для чего нам нужен гит?
