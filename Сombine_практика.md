@@ -18,6 +18,8 @@ class LoginView: UIView {
         self.addSubview(usernameTextField)
         self.addSubview(passwordTextField)
         self.addSubview(continueButton)
+
+        // Дополнительная настройка
     }
 }
 
